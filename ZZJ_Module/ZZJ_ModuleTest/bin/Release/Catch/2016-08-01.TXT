@@ -1,0 +1,147 @@
+
+=====================明细查询=====================
+时间:15:50:32:243
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 ZZJCore.SuanFa.WebServiceHelper.InvokeWebService(String url, String classname, String methodname, Object[] args) 位置 F:\S2\Core\SuanFa\InvokeWebService.cs:行号 141
+   在 ZZJCore.SuanFa.WebServiceHelper.InvokeWebService(String url, String methodname, Object[] args) 位置 F:\S2\Core\SuanFa\InvokeWebService.cs:行号 59
+   在 XFMX.XFMXMain() 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\XFMX.cs:行号 46
+流水号:无法获取流水号
+患者信息:卡号:888888 姓名:刘一一 
+=====================现金充值=====================
+时间:15:51:27:632
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 XMLCore.CZ(Decimal DC, String& YCMS, Int32& InvokeRet, Int32 CXType, String BankName, String JYLX) 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\XMLCore.cs:行号 655
+流水号:无法获取流水号
+患者信息:卡号:888888 姓名:刘一一 
+=====================自助缴费=====================
+时间:15:51:42:809
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 ZZJCore.SuanFa.WebServiceHelper.InvokeWebService(String url, String classname, String methodname, Object[] args) 位置 F:\S2\Core\SuanFa\InvokeWebService.cs:行号 141
+   在 ZZJCore.SuanFa.WebServiceHelper.InvokeWebService(String url, String methodname, Object[] args) 位置 F:\S2\Core\SuanFa\InvokeWebService.cs:行号 59
+   在 JF.JFMain() 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\JF.cs:行号 73
+流水号:无法获取流水号
+患者信息:卡号:888888 姓名:刘一一 
+=====================明细查询=====================
+时间:15:53:59:141
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 ZZJCore.SuanFa.WebServiceHelper.InvokeWebService(String url, String classname, String methodname, Object[] args) 位置 F:\S2\Core\SuanFa\InvokeWebService.cs:行号 141
+   在 ZZJCore.SuanFa.WebServiceHelper.InvokeWebService(String url, String methodname, Object[] args) 位置 F:\S2\Core\SuanFa\InvokeWebService.cs:行号 59
+   在 XFMX.XFMXMain() 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\XFMX.cs:行号 46
+流水号:无法获取流水号
+患者信息:卡号:888888 姓名:刘一一 
+=====================自助缴费=====================
+时间:16:24:11:669
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 ZZJCore.SuanFa.WebServiceHelper.InvokeWebService(String url, String classname, String methodname, Object[] args) 位置 F:\S2\Core\SuanFa\InvokeWebService.cs:行号 141
+   在 ZZJCore.SuanFa.WebServiceHelper.InvokeWebService(String url, String methodname, Object[] args) 位置 F:\S2\Core\SuanFa\InvokeWebService.cs:行号 59
+   在 JF.JFMain() 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\JF.cs:行号 73
+流水号:无法获取流水号
+患者信息:卡号:888888 姓名:刘一一 
+=====================自助缴费=====================
+时间:16:25:02:908
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 ZZJCore.SuanFa.WebServiceHelper.InvokeWebService(String url, String classname, String methodname, Object[] args) 位置 F:\S2\Core\SuanFa\InvokeWebService.cs:行号 141
+   在 ZZJCore.SuanFa.WebServiceHelper.InvokeWebService(String url, String methodname, Object[] args) 位置 F:\S2\Core\SuanFa\InvokeWebService.cs:行号 59
+   在 JF.JFMain() 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\JF.cs:行号 73
+流水号:无法获取流水号
+患者信息:卡号:888888 姓名:刘一一 
+=====================自助缴费=====================
+时间:17:07:06:815
+异常描述:缺少根元素。
+调用堆栈:
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 JF.JFMain() 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\JF.cs:行号 109
+流水号:无法获取流水号
+患者信息:卡号:888888 姓名:刘一一 
+=====================自助缴费=====================
+时间:17:07:33:015
+异常描述:缺少根元素。
+调用堆栈:
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 JF.JFMain() 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\JF.cs:行号 109
+流水号:无法获取流水号
+患者信息:卡号:888888 姓名:刘一一 
+=====================自助缴费=====================
+时间:17:15:17:162
+异常描述:表达式的计算结果必须为节点集。
+调用堆栈:
+   在 MS.Internal.Xml.XPath.XPathParser.ParseNodeTest(AstNode qyInput, AxisType axisType, XPathNodeType nodeType)
+   在 MS.Internal.Xml.XPath.XPathParser.ParseStep(AstNode qyInput)
+   在 MS.Internal.Xml.XPath.XPathParser.ParseRelativeLocationPath(AstNode qyInput)
+   在 MS.Internal.Xml.XPath.XPathParser.ParseLocationPath(AstNode qyInput)
+   在 MS.Internal.Xml.XPath.XPathParser.ParsePathExpr(AstNode qyInput)
+   在 MS.Internal.Xml.XPath.XPathParser.ParseUnionExpr(AstNode qyInput)
+   在 MS.Internal.Xml.XPath.XPathParser.ParseUnaryExpr(AstNode qyInput)
+   在 MS.Internal.Xml.XPath.XPathParser.ParseMultiplicativeExpr(AstNode qyInput)
+   在 MS.Internal.Xml.XPath.XPathParser.ParseAdditiveExpr(AstNode qyInput)
+   在 MS.Internal.Xml.XPath.XPathParser.ParseRelationalExpr(AstNode qyInput)
+   在 MS.Internal.Xml.XPath.XPathParser.ParseEqualityExpr(AstNode qyInput)
+   在 MS.Internal.Xml.XPath.XPathParser.ParseAndExpr(AstNode qyInput)
+   在 MS.Internal.Xml.XPath.XPathParser.ParseOrExpr(AstNode qyInput)
+   在 MS.Internal.Xml.XPath.XPathParser.ParseExpresion(AstNode qyInput)
+   在 MS.Internal.Xml.XPath.XPathParser.ParseXPathExpresion(String xpathExpresion)
+   在 System.Xml.XPath.XPathExpression.Compile(String xpath, IXmlNamespaceResolver nsResolver)
+   在 System.Xml.XPath.XPathNavigator.Select(String xpath)
+   在 System.Xml.XmlNode.SelectNodes(String xpath)
+   在 JF.ReadNodes(XmlDocument Xml) 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\JF.cs:行号 225
+   在 JF.JFMain() 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\JF.cs:行号 100
+流水号:无法获取流水号
+患者信息:卡号:888888 姓名:刘一一 
+=====================自助缴费=====================
+时间:17:39:19:270
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 JF.JFMain() 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\JF.cs:行号 120
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\MEF.cs:行号 143
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\MEF.cs:行号 103
+流水号:无法获取流水号
+患者信息:卡号:888888 姓名:刘一一 
+=====================自助缴费=====================
+时间:17:40:12:981
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 FormStyle.JFStyle.<DateGridView001>b__0(XmlNode ST) 位置 E:\S2\ZZJ_Module市立\FormStyle\FormStyle\JFStyle.cs:行号 19
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Linq.Enumerable.Sum(IEnumerable`1 source)
+   在 FormStyle.JFStyle.DateGridView001(XmlNode[][] JFSJ2, String[] SJLists, ButtonEvent DTGButtonEvent) 位置 E:\S2\ZZJ_Module市立\FormStyle\FormStyle\JFStyle.cs:行号 19
+   在 JF.JFMain() 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\JF.cs:行号 144
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\MEF.cs:行号 143
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\MEF.cs:行号 103
+流水号:无法获取流水号
+患者信息:卡号:888888 姓名:刘一一 
+=====================自助缴费=====================
+时间:17:45:48:552
+异常描述:索引超出了数组界限。
+调用堆栈:
+   在 JF.DateGridView001(XmlNode[][] JFSJ2, String[] SJLists, ButtonEvent DTGButtonEvent) 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\JF.cs:行号 227
+   在 JF.JFMain() 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\JF.cs:行号 144
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\MEF.cs:行号 143
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\MEF.cs:行号 103
+流水号:无法获取流水号
+患者信息:卡号:888888 姓名:刘一一 
+=====================自助缴费=====================
+时间:17:47:06:837
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 JF.DateGridView002(Int32 GSelectIndex, XmlNode[][] JFSJ2) 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\JF.cs:行号 259
+   在 JF.JFMain() 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\JF.cs:行号 179
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\MEF.cs:行号 143
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 C:\Users\vblegend\Desktop\ZZJ_Module阜外\ZZJ_Module\MEF.cs:行号 103
+流水号:无法获取流水号
+患者信息:卡号:888888 姓名:刘一一 

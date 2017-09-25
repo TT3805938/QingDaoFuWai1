@@ -1,0 +1,34 @@
+XYB				文件夹		逍遥笔手写输入法
+Data			文件夹		音频数据
+Public_SQLHelper.dll		SQL数据库封装
+Config.db					SQL数据库配置,测试时用
+Data.mdb					本地资源数据库,中文拼音输入法的数据也在内
+HL.Devices.dll				硬件设备驱动包
+Mw_Voice.dll				语音库接口文件
+jTTS_Audio.dll				杰通语音库接口附属文件
+JTTS_MA.dll					杰通语音库接口附属文件
+jTTS_ML.dll					杰通语音库接口附属文件
+Mw_Public.dll				部分自助机公共资源
+WltRS.dll					刷身份证功能附属文件
+HZRecog.dll					中文手写输入法
+Mw_MSSQL.dll					访问数据库
+
+
+青岛社保有关文件
+HWInfo.dll QDYBCard.dll SendPos.dll SendRcv.dll mdClient.DLL
+
+青岛银联文件
+QDYLLib.dll QDYLLib.pdb RegOcx.bat RetData.txt rsp.ini Transfer.pdb ums-ssl-lib.dll umsapi.dll umsapi.h
+umsapi.lib umsapiInter.dll umscert.pem umscup.dll umsdevice.dll umsips.log umspub.dll umstools.dll pack.dll
+NUniversalCharDet.dll umsapiPack.dll
+
+病历本打印:
+MsprintsdkRM.dll
+
+区域卡支持:
+YuanTuGatewaydo.dll
+
+读卡发卡相关
+PavoApi.dll sdtapi.dll serf32.dll
+A6CRTAPI.dll				读卡器动态库
+cardapi2.dll				读卡器动态库的附属文件

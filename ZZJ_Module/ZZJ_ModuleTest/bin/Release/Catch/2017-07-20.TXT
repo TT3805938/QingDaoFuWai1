@@ -1,0 +1,15 @@
+
+=====================自助缴费=====================
+时间:13:43:41:077
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 JF.Pay(XmlNode[] XN, String PayMode, String Bankname, String TransCode, String TransSerialNo, String PayTransNo, String BatchNo, String PostransNo, String ReferenceNo, String TerminalNo) 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\JF.cs:行号 833
+流水号:ZZ001-20170720-000013
+患者信息:卡号:00405627 姓名:王文龙 
+=====================自助缴费=====================
+时间:13:46:17:388
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 JF.Pay(XmlNode[] XN, String PayMode, String Bankname, String TransCode, String TransSerialNo, String PayTransNo, String BatchNo, String PostransNo, String ReferenceNo, String TerminalNo) 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\JF.cs:行号 833
+流水号:ZZ001-20170720-000013
+患者信息:卡号:00405627 姓名:王文龙 

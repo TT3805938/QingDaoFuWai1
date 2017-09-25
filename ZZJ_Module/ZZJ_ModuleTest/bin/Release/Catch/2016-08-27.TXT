@@ -1,0 +1,37 @@
+
+==========================================
+时间:09:09:49:166
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 ZZJ_Module.UnionPay.Payment() 位置 E:\2016-8-16\ZZJ_Module\ZZJ_Module\交费\UnionPay.cs:行号 229
+流水号:101010-20150406-0000000
+患者信息:卡号: 姓名: 
+==========================================
+时间:09:10:22:564
+异常描述:无法连接到远程服务器
+调用堆栈:
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 YuanTuGatewaydo.Gateway.HttpPost(String Url, String postDataStr)
+   在 YuanTuGatewaydo.Gateway.Query(String url, String input)
+   在 ZZJ_Module.UserData.yjjxf(Decimal DC) 位置 E:\2016-8-16\ZZJ_Module\ZZJ_Module\区域相关\UserData.cs:行号 287
+流水号:101010-20150406-0000000
+患者信息:卡号: 姓名: 
+==========================================
+时间:09:10:43:689
+异常描述:无法连接到远程服务器
+调用堆栈:
+   在 System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   在 System.Net.HttpWebRequest.GetRequestStream()
+   在 YuanTuGatewaydo.Gateway.HttpPost(String Url, String postDataStr)
+   在 YuanTuGatewaydo.Gateway.Query(String url, String input)
+   在 ZZJ_Module.UserData.yjjxf(Decimal DC) 位置 E:\2016-8-16\ZZJ_Module\ZZJ_Module\区域相关\UserData.cs:行号 287
+流水号:101010-20150406-0000000
+患者信息:卡号: 姓名: 
+=====================自助缴费=====================
+时间:09:26:45:714
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 ZZJ_Module.UnionPay.Payment() 位置 E:\2016-8-16\ZZJ_Module\ZZJ_Module\交费\UnionPay.cs:行号 229
+流水号:TEST-20160827-000001
+患者信息:卡号:00405354 姓名:王腊明 
