@@ -1,1 +1,0 @@
-string ZZJ_ModuleTest.exe /PrintImage "CUSTOM K80" %1

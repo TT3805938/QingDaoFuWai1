@@ -1,4 +1,0 @@
-﻿模块调用GetUserInfo查询用户信息
-如果医院的就诊卡不止一种,则GetUserInfo内会调用GetCardNO来获取唯一识别号
-
-GetCardNO里面把卡分了类型,根据不同类型去查询识别码
