@@ -1,0 +1,13 @@
+
+=====================自助缴费=====================
+时间:09:03:19:860
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 JF.Pay(XmlNode[] XN, String PayMode, String Bankname, String TransCode, String TransSerialNo, String PayTransNo, String BatchNo, String PostransNo, String ReferenceNo, String TerminalNo) 位置 E:\2016-8-16\666666666666\ZZJ_Module\ZZJ_Module\JF.cs:行号 531
+   在 JF.JFADay(XmlNode[] XN) 位置 E:\2016-8-16\666666666666\ZZJ_Module\ZZJ_Module\JF.cs:行号 453
+   在 JF.JFALLDay() 位置 E:\2016-8-16\666666666666\ZZJ_Module\ZZJ_Module\JF.cs:行号 421
+   在 JF.JFMain() 位置 E:\2016-8-16\666666666666\ZZJ_Module\ZZJ_Module\JF.cs:行号 195
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\2016-8-16\666666666666\ZZJ_Module\ZZJ_Module\MEF.cs:行号 143
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\2016-8-16\666666666666\ZZJ_Module\ZZJ_Module\MEF.cs:行号 103
+流水号:TEST-20160831-000026
+患者信息:卡号:00405355 姓名:王腊明 

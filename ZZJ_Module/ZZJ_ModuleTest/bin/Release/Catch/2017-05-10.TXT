@@ -1,0 +1,21 @@
+
+=====================当日挂号=====================
+时间:14:59:54:656
+异常描述:找不到字段:“SelectFormParameter.Title”。
+调用堆栈:
+   在 ZZJ_Module.DRGH.ShowSelectWindow(String Caption, String[] Buttons, Boolean retbtn, Boolean Closebtn)
+   在 ZZJ_Module.DRGH.GHMain() 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\DRGH.cs:行号 70
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\MEF.cs:行号 150
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\MEF.cs:行号 106
+流水号:ZZ001-20170510-000001
+患者信息:卡号:00410475 姓名:医保卡测试 
+=====================当日挂号=====================
+时间:15:00:08:579
+异常描述:找不到字段:“SelectFormParameter.Title”。
+调用堆栈:
+   在 ZZJ_Module.DRGH.ShowSelectWindow(String Caption, String[] Buttons, Boolean retbtn, Boolean Closebtn)
+   在 ZZJ_Module.DRGH.GHMain() 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\DRGH.cs:行号 70
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\MEF.cs:行号 150
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\MEF.cs:行号 106
+流水号:ZZ001-20170510-000001
+患者信息:卡号:00410475 姓名:医保卡测试 

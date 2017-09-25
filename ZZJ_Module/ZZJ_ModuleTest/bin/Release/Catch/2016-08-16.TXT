@@ -1,0 +1,31 @@
+
+=====================自助缴费=====================
+时间:17:57:46:984
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 JF.DateGridView002(Int32 GSelectIndex, XmlNode[][] JFSJ2) 位置 E:\2016-8-16\ZZJ_Module阜外\ZZJ_Module\JF.cs:行号 256
+   在 JF.JFMain() 位置 E:\2016-8-16\ZZJ_Module阜外\ZZJ_Module\JF.cs:行号 180
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\2016-8-16\ZZJ_Module阜外\ZZJ_Module\MEF.cs:行号 143
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\2016-8-16\ZZJ_Module阜外\ZZJ_Module\MEF.cs:行号 103
+流水号:TEST-20160816-000046
+患者信息:卡号:00405352 姓名:王腊明 
+=====================自助缴费=====================
+时间:18:17:34:389
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 JF.DateGridView002(Int32 GSelectIndex, XmlNode[][] JFSJ2) 位置 E:\2016-8-16\ZZJ_Module阜外\ZZJ_Module\JF.cs:行号 256
+   在 JF.JFMain() 位置 E:\2016-8-16\ZZJ_Module阜外\ZZJ_Module\JF.cs:行号 180
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\2016-8-16\ZZJ_Module阜外\ZZJ_Module\MEF.cs:行号 143
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\2016-8-16\ZZJ_Module阜外\ZZJ_Module\MEF.cs:行号 103
+流水号:TEST-20160816-000046
+患者信息:卡号:00405352 姓名:王腊明 
+=====================自助缴费=====================
+时间:19:21:53:246
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 JF.DateGridView002(Int32 GSelectIndex, XmlNode[][] JFSJ2) 位置 E:\2016-8-16\ZZJ_Module阜外\ZZJ_Module\JF.cs:行号 333
+   在 JF.JFMain() 位置 E:\2016-8-16\ZZJ_Module阜外\ZZJ_Module\JF.cs:行号 180
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\2016-8-16\ZZJ_Module阜外\ZZJ_Module\MEF.cs:行号 143
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\2016-8-16\ZZJ_Module阜外\ZZJ_Module\MEF.cs:行号 103
+流水号:TEST-20160816-000046
+患者信息:卡号:00405352 姓名:王腊明 

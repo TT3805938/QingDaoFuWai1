@@ -1,0 +1,348 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using HL.Devices.DKQ;
+using System.Threading;
+using ZZJSubModuleInterface;
+namespace HLReadCard
+{
+	#region 换卡操作类型
+	/// <summary>
+	/// 换卡操作类型
+	/// </summary>
+	public enum KPCZLX
+	{
+         EXIT_CARD=9,
+		 SWITCH_YNK=0,
+		 SWITCH_QYK=1,
+		 SWITCH_SBK_IC=2,
+		 SWITCH_SBK_OLD=3,
+		 SWITCH_QDYHK=4,
+		 SWITCH_YHK=5
+	}
+	#endregion
+
+	public class LoopReadCard1
+    {
+        static Thread threadloopreadcard=null;
+        static  ReadCardDevCls objReadcardCls=null;
+        public delegate void delegateReadResult(int step,int iRet, ReadCardResultInfoCls objinfo);
+        static delegateReadResult readResult = null;
+		static bool opendDevOK = false; // 是否正确打开读卡器
+        static bool boolReadOK = false; //是否读取成功
+ 
+
+        #region 初始化读卡器
+        /// <summary>
+        /// 初始化读卡器
+        /// </summary>
+        /// <param name="objReadcardCls"></param>
+        /// <returns></returns>
+        public static int InitReadCard(ReadCardDevCls objCls, delegateReadResult objresult, out string msg)
+        {
+            int iRet = -1;
+            msg="";
+            objReadcardCls=objCls;
+		 
+            //如果读卡器名称或端口号任一设置为空，则默认为没有设置
+            if (objCls.DevType=="" || objCls.DevPort == "")
+            {
+                msg="名称型号不能为空";// 
+                return -1; 
+            }
+            if (objReadcardCls.DevPort == "")
+            {
+                msg="端口号不能为空"; 
+                return -1;  
+            }
+            DKQDev.CloseDevice();//先关掉端口
+            string dkqPort = objReadcardCls.DevPort.Substring(3, objReadcardCls.DevPort.Length - 3);
+            if (DKQDev.OpenDevice(objReadcardCls.DevType, dkqPort, 9600) != 0)
+            {
+                 msg="打开读卡器失败";// 
+                return -2;
+            }
+			Thread.Sleep(50);
+			//设置进卡
+			if (objCls.KPJZ == 0) //卡介质为磁条
+			{
+				iRet = DKQDev.SetCardIn(2, 0); //仅允许进磁卡
+			}
+			else //卡介质为射频(或其他）
+			{
+				iRet = DKQDev.SetCardIn(3, 0); //仅允许射磁卡
+			}
+            Thread.Sleep(50);
+            DKQDev.SetCardPostion(4);//直接进IC卡位
+            /************************************
+             * 初始化参数
+             * ***********************************/
+            readResult = objresult; //赋值读卡委托
+            boolReadOK = false; //是否读取成功
+			opendDevOK = true; 	   //成功打开读卡器
+            if(threadloopreadcard==null) //还始循环读取卡信息
+            {
+               threadloopreadcard=new Thread(new ThreadStart(StartLoopReadCard));
+               threadloopreadcard.IsBackground=true;
+               threadloopreadcard.Start();
+            }
+            return 0;
+        }
+        #endregion
+
+        #region 循环检测读卡
+        /// <summary>
+        /// 循环检测读卡
+        /// </summary>
+        public static void StartLoopReadCard()
+        {
+            int iRet = -1;
+            int cardState = -1;
+            int kplx = 0;
+            string msg = "";
+            while (true)
+            {
+				if (opendDevOK==false) //如果没有打开读卡器，则跳出读卡线程
+                {
+					//System.Windows.Forms.MessageBox.Show("读卡线程退出");
+                    return;
+                }
+                Thread.Sleep(100);
+                if (boolReadOK) //如果读卡成功，则保持线程运行
+                {
+                    continue;
+                }
+                cardState = -1;
+                iRet = DKQDev.GetStatus(ref cardState);
+                if (iRet != 0) //执行不成功，则跳下一循环
+                {
+                    continue;
+                }
+                if (cardState != 1) //卡机内无卡
+                {
+                    continue;
+				} 
+				//有卡，开始读卡 
+				if (readResult != null)//有卡，开始读卡委托给应用层
+				{
+					readResult(0,0, null);
+				}
+				Thread.Sleep(100);
+				DKQDev.ICEnableExtIO(false); //IC 切换到卡槽内
+				Thread.Sleep(100);
+				if (readResult != null)//检测卡类型委托给应用层
+				{
+					readResult(1, 0, null);
+				}
+                iRet = DKQDev.DetectICType(out kplx, out msg); //检测卡类型 
+                if (iRet != 0) //检测卡类型失败
+                {
+					if (readResult != null)//检测卡类型委托给应用层
+					{
+						readResult(1, -1, null);
+					}
+					DKQDev.MoveCard(1); //将卡重新走位到前端位置，不持卡 //退卡
+                    continue;//执行不成功，则跳下一循环
+                }
+				if (readResult != null)//正在识别就诊卡
+				{
+					readResult(2, 1, null);
+				}
+                //检测卡类型成功
+                ReadCardResultInfoCls objCardinfo = new ReadCardResultInfoCls();
+                switch (kplx) //根据卡片类型执行不同的读卡操作
+                {
+
+					case 0x10: //S50卡
+						{
+
+							byte[] s50bytes = new byte[512];
+							//先读取医院院内卡
+							iRet = DKQDev.M1_ReadCard(objReadcardCls.YYJZK_SJSQ, objReadcardCls.YYJZK_SJK, objReadcardCls.YYJZK_Key, ref s50bytes, ref msg);
+							if (iRet != 0) //读取失败  
+							{
+								if (readResult != null)//把读取的数据委托给应用层
+								{
+									readResult(2, iRet, null);
+								}
+								DKQDev.MoveCard(1); //将卡重新走位到前端位置， 持卡 //退卡
+								continue; //退卡后，继续寻卡
+							}
+							//读取卡号成功
+							boolReadOK = true; //读取成功标志
+							//读取成功,分析卡号
+							objCardinfo.KPLX = 0; //卡片类型(0 院内卡，1 区域卡，2 社保卡(IC)，3.社保卡(旧）   4.青岛银行卡）
+							objCardinfo.KH = Encoding.ASCII.GetString(s50bytes).TrimEnd('\0');
+							if (readResult != null)//把读取的数据委托给应用层
+							{
+								readResult(2, iRet, objCardinfo);
+							}
+							continue;
+						}
+					case 0x20:  //  ICCTYPE_T0_CPU
+						{
+							//(9为所支持的全部卡类，卡片类型(0 院内卡，1 区域卡，2 社保卡(IC)，3.社保卡(旧）   4.青岛银行卡）
+
+							/*************************
+							 *   用医保DLL 尝试读卡
+							* *********************/
+							DKQDev.ICEnableExtIO(true); //切换到外部IO读IC
+							QDYBCard.SFXX ybcardinfo = QDYBCard.ReadCard();
+							//读取失败
+							if (ybcardinfo.XM == null || ybcardinfo.SFZ == null)
+							{
+								if (readResult != null)//把读卡失败信息委托给应用层
+								{
+									readResult(2, -1, null);
+								}
+								DKQDev.MoveCard(1); //将卡重新走位到前端位置， 持卡 //退卡
+								continue; //退卡后，继续寻卡
+							}
+							else //读青岛医保卡成功，则解析数据，并委托给应用层
+							{
+								objCardinfo.XM = ybcardinfo.XM.ToString(); //姓名
+								objCardinfo.ZJHM = ybcardinfo.SFZ.ToString(); //证件号码
+								objCardinfo.KPLX = 2;         //卡片类型(0 院内卡，1 区域卡，2 社保卡(IC)，3.社保卡(旧）   4.青岛银行卡）
+								objCardinfo.ZJLX = 0; //证件类型(0,身份证）
+								if (readResult != null)//委托给应用层
+								{
+									readResult(2, 0, objCardinfo);
+								}
+								boolReadOK = true; //读取成功标志
+								continue;
+							}
+
+						}
+					default://其余的卡
+						{
+							boolReadOK = false; // 
+							if (readResult != null)//把读卡失败信息委托给应用层
+							{
+								readResult(9,-1, null);
+							}
+							DKQDev.MoveCard(1); //将卡重新走位到前端位置，不持卡 //退卡
+					 
+							continue; //退卡后，继续寻卡
+						}
+                }
+            }
+        }
+        #endregion
+
+        #region 退卡
+        /// <summary>
+        /// 退卡
+        /// </summary>
+        /// <returns></returns>
+        public static int ExitCard()
+        {
+            int iRet = -1;
+			if (opendDevOK == false)
+			{
+				return iRet;
+			}
+		 
+			iRet = DKQDev.MoveCard(1); //将卡重新走位到前端位置，持卡
+            boolReadOK = false; // 退卡成功后，将重新寻卡
+            return iRet;
+        }
+        #endregion
+
+		#region 换卡
+		/// <summary>
+		/// 换卡
+		/// </summary>
+		/// <param name="objlx"></param>
+		public static void SetSwitchKP(KPCZLX objlx)
+		{
+			if (opendDevOK == false)
+			{
+				return;
+			}
+		    DKQDev.MoveCard(1); //将卡重新走位到前端位置，持卡
+			boolReadOK = false; // 退卡成功后，将重新寻卡
+		 
+		}
+		#endregion
+
+
+		#region 设置是否允许进卡
+		/// <summary>
+		/// 设置是否允许进卡
+		/// </summary>
+		/// <param name="boolcardin"></param>
+		/// <returns></returns>
+		public static int SetCardIn(bool boolcardin)
+		{
+			int iRet = -1;
+			if (opendDevOK == false)
+			{
+				return iRet;
+			}
+			if (boolcardin)
+			{
+				//设置进卡
+				if (objReadcardCls.KPJZ == 0) //卡介质为磁条
+				{
+					iRet = DKQDev.SetCardIn(2, 1); //仅允许进磁卡
+				}
+				else //卡介质为射频(或其他）
+				{
+					iRet = DKQDev.SetCardIn(3, 1); //仅允许射磁卡
+				}
+
+
+			}
+			else
+			{
+				iRet = DKQDev.SetCardIn(1, 1); //禁止进卡
+			}
+			return iRet;
+		}
+		#endregion
+
+		#region 停止并关闭读卡操作
+		/// <summary>
+        /// 停止并关闭读卡操作
+        /// </summary>
+        public static void StopAndCloseReadCard()
+        {
+			opendDevOK = false;
+            Thread.Sleep(50);
+            if (threadloopreadcard != null)
+            {
+                try
+                {
+                    threadloopreadcard.Abort();
+                    threadloopreadcard = null;
+                }
+                catch
+                { }
+                Thread.Sleep(100);
+                DKQDev.MoveCard(1); //将卡重新走位到前端位置， 持卡
+                DKQDev.CloseDevice();
+				opendDevOK = false;	 //重置打开设备标志
+            }
+        }
+        #endregion
+
+    }
+
+    #region 读卡入参
+    /// <summary>
+    /// 读卡入参
+    /// </summary>
+    public class ReadCardDevCls
+    {
+        public string DevType { set; get; }
+        public string DevPort { set; get; }
+		public int KPJZ { set; get; }
+        public int YYJZK_SJK { set; get; }
+        public int YYJZK_SJSQ { set; get; }
+        public byte[] YYJZK_Key { set; get; }
+    }
+    #endregion
+
+
+}

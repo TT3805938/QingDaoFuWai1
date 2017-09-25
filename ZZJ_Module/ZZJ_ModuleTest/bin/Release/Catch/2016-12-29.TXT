@@ -1,0 +1,34 @@
+
+=====================住院明细查询=====================
+时间:19:38:11:674
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 ZYQD.ShowDateMM(ACFList[] ACFL) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 315
+   在 ZYQD.ZYQDMain() 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 295
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 146
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 103
+流水号:ZZ001-20161229-000006
+患者信息:卡号:00405560 姓名:臧丰仕              心脏中心 
+=====================住院明细查询=====================
+时间:19:40:04:437
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 ZYQD.ShowDateMM(ACFList[] ACFL) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 315
+   在 ZYQD.ZYQDMain() 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 295
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 146
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 103
+流水号:ZZ001-20161229-000006
+患者信息:卡号:00405560 姓名:臧丰仕              心脏中心 
+=====================住院明细查询=====================
+时间:21:12:53:749
+异常描述:索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+调用堆栈:
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 ZYQD.ShowDateMM(ACFList[] ACFL) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 349
+   在 ZYQD.ZYQDMain() 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 295
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 146
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 103
+流水号:ZZ001-20161229-000006
+患者信息:卡号:00405560 姓名:臧丰仕              心脏中心 

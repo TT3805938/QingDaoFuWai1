@@ -1,0 +1,69 @@
+
+=====================自助缴费=====================
+时间:15:51:39:746
+异常描述:出现意外的文件结尾。以下元素未封闭: zzxt. 第 1 行，位置 65。
+调用堆栈:
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ThrowUnclosedElements()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 JF.Pay(XmlNode[] XN, String PayMode, String Bankname, String TransCode, String TransSerialNo, String PayTransNo, String BatchNo, String PostransNo, String ReferenceNo, String TerminalNo) 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\JF.cs:行号 751
+流水号:无法获取流水号
+患者信息:卡号:00410479 姓名:殷恩润 
+=====================自助缴费=====================
+时间:15:53:43:036
+异常描述:出现意外的文件结尾。以下元素未封闭: zzxt. 第 1 行，位置 65。
+调用堆栈:
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ThrowUnclosedElements()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 JF.Pay(XmlNode[] XN, String PayMode, String Bankname, String TransCode, String TransSerialNo, String PayTransNo, String BatchNo, String PostransNo, String ReferenceNo, String TerminalNo) 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\JF.cs:行号 751
+流水号:无法获取流水号
+患者信息:卡号:00410479 姓名:殷恩润 
+=====================自助缴费=====================
+时间:15:57:12:680
+异常描述:出现意外的文件结尾。以下元素未封闭: zzxt. 第 1 行，位置 65。
+调用堆栈:
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ThrowUnclosedElements()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 JF.Pay(XmlNode[] XN, String PayMode, String Bankname, String TransCode, String TransSerialNo, String PayTransNo, String BatchNo, String PostransNo, String ReferenceNo, String TerminalNo) 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\JF.cs:行号 751
+流水号:无法获取流水号
+患者信息:卡号:00410479 姓名:殷恩润 
+=====================自助缴费=====================
+时间:18:01:33:644
+异常描述:出现意外的文件结尾。以下元素未封闭: zzxt. 第 1 行，位置 65。
+调用堆栈:
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ThrowUnclosedElements()
+   在 System.Xml.XmlTextReaderImpl.ParseElementContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.LoadNode(Boolean skipOverWhitespace)
+   在 System.Xml.XmlLoader.LoadDocSequence(XmlDocument parentDoc)
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 JF.Pay(XmlNode[] XN, String PayMode, String Bankname, String TransCode, String TransSerialNo, String PayTransNo, String BatchNo, String PostransNo, String ReferenceNo, String TerminalNo) 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\JF.cs:行号 751
+流水号:无法获取流水号
+患者信息:卡号:00410479 姓名:殷恩润 

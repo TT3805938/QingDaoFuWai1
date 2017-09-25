@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HLReadCard", "HLReadCard\HLReadCard.csproj", "{F48540AB-0989-4E72-8EC7-3C4F31FB5363}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HLReadCardTestFrm", "HLReadCardFrm\HLReadCardTestFrm.csproj", "{B48B68F7-CDDD-4DA8-8473-FBA6DE875C37}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F48540AB-0989-4E72-8EC7-3C4F31FB5363} = {F48540AB-0989-4E72-8EC7-3C4F31FB5363}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F48540AB-0989-4E72-8EC7-3C4F31FB5363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48540AB-0989-4E72-8EC7-3C4F31FB5363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48540AB-0989-4E72-8EC7-3C4F31FB5363}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F48540AB-0989-4E72-8EC7-3C4F31FB5363}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F48540AB-0989-4E72-8EC7-3C4F31FB5363}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F48540AB-0989-4E72-8EC7-3C4F31FB5363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48540AB-0989-4E72-8EC7-3C4F31FB5363}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F48540AB-0989-4E72-8EC7-3C4F31FB5363}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F48540AB-0989-4E72-8EC7-3C4F31FB5363}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F48540AB-0989-4E72-8EC7-3C4F31FB5363}.Release|x86.ActiveCfg = Release|Any CPU
+		{B48B68F7-CDDD-4DA8-8473-FBA6DE875C37}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{B48B68F7-CDDD-4DA8-8473-FBA6DE875C37}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{B48B68F7-CDDD-4DA8-8473-FBA6DE875C37}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{B48B68F7-CDDD-4DA8-8473-FBA6DE875C37}.Debug|x86.ActiveCfg = Debug|x86
+		{B48B68F7-CDDD-4DA8-8473-FBA6DE875C37}.Debug|x86.Build.0 = Debug|x86
+		{B48B68F7-CDDD-4DA8-8473-FBA6DE875C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48B68F7-CDDD-4DA8-8473-FBA6DE875C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48B68F7-CDDD-4DA8-8473-FBA6DE875C37}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{B48B68F7-CDDD-4DA8-8473-FBA6DE875C37}.Release|Mixed Platforms.Build.0 = Release|x86
+		{B48B68F7-CDDD-4DA8-8473-FBA6DE875C37}.Release|x86.ActiveCfg = Release|x86
+		{B48B68F7-CDDD-4DA8-8473-FBA6DE875C37}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

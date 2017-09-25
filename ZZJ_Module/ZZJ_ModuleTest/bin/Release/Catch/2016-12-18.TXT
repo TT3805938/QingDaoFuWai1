@@ -1,0 +1,109 @@
+
+=====================充值明细查询=====================
+时间:10:44:37:628
+异常描述:根级别上的数据无效。 第 1 行，位置 1。
+调用堆栈:
+   在 System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   在 System.Xml.XmlTextReaderImpl.Throw(String res, String arg)
+   在 System.Xml.XmlTextReaderImpl.ParseRootLevelWhitespace()
+   在 System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   在 System.Xml.XmlTextReaderImpl.Read()
+   在 System.Xml.XmlLoader.Load(XmlDocument doc, XmlReader reader, Boolean preserveWhitespace)
+   在 System.Xml.XmlDocument.Load(XmlReader reader)
+   在 System.Xml.XmlDocument.LoadXml(String xml)
+   在 ZYQD.ZYQDMain() 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 199
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 146
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 103
+流水号:ZZ001-20161214-000013
+患者信息:卡号:00405560 姓名: 
+=====================充值明细查询=====================
+时间:13:05:07:149
+异常描述:输入字符串的格式不正确。
+调用堆栈:
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Decimal.Parse(String s)
+   在 ZYQD.ReadNodes(XmlDocument Xml) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 421
+   在 ZYQD.ZYQDMain() 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 235
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 146
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 103
+流水号:ZZ001-20161214-000013
+患者信息:卡号:00405560 姓名: 
+=====================充值明细查询=====================
+时间:13:19:01:464
+异常描述:输入字符串的格式不正确。
+调用堆栈:
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Decimal.Parse(String s)
+   在 ZYQD.ReadNodes(XmlDocument Xml) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 421
+   在 ZYQD.ZYQDMain() 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 235
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 146
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 103
+流水号:ZZ001-20161214-000013
+患者信息:卡号:00405560 姓名: 
+=====================充值明细查询=====================
+时间:13:22:36:871
+异常描述:输入字符串的格式不正确。
+调用堆栈:
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Decimal.Parse(String s)
+   在 ZYQD.ReadNodes(XmlDocument Xml) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 421
+   在 ZYQD.ZYQDMain() 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 235
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 146
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 103
+流水号:ZZ001-20161214-000013
+患者信息:卡号:00405560 姓名: 
+=====================充值明细查询=====================
+时间:13:27:41:404
+异常描述:输入字符串的格式不正确。
+调用堆栈:
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Decimal.Parse(String s)
+   在 ZYQD.ReadNodes(XmlDocument Xml) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 421
+   在 ZYQD.ZYQDMain() 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 235
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 146
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 103
+流水号:ZZ001-20161214-000013
+患者信息:卡号:00405560 姓名: 
+=====================充值明细查询=====================
+时间:13:30:51:564
+异常描述:输入字符串的格式不正确。
+调用堆栈:
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Decimal.Parse(String s)
+   在 ZYQD.ReadNodes(XmlDocument Xml) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 421
+   在 ZYQD.ZYQDMain() 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 235
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 146
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 103
+流水号:ZZ001-20161214-000013
+患者信息:卡号:00405560 姓名: 
+=====================充值明细查询=====================
+时间:13:33:52:523
+异常描述:输入字符串的格式不正确。
+调用堆栈:
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Decimal.Parse(String s)
+   在 ZYQD.ReadNodes(XmlDocument Xml) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 421
+   在 ZYQD.ZYQDMain() 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 235
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 146
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 103
+流水号:ZZ001-20161214-000013
+患者信息:卡号:00405560 姓名: 
+=====================充值明细查询=====================
+时间:13:42:01:344
+异常描述:输入字符串的格式不正确。
+调用堆栈:
+   在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   在 System.Number.ParseDecimal(String value, NumberStyles options, NumberFormatInfo numfmt)
+   在 System.Decimal.Parse(String s)
+   在 ZYQD.ReadNodes(XmlDocument Xml) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 421
+   在 ZYQD.ZYQDMain() 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\ZYQD.cs:行号 235
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 146
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\2\ZZJ_Module\ZZJ_Module\MEF.cs:行号 103
+流水号:ZZ001-20161214-000013
+患者信息:卡号:00405560 姓名: 

@@ -1,0 +1,12 @@
+
+=====================报告单打印=====================
+时间:15:31:00:283
+异常描述:系统找不到指定的文件。
+调用堆栈:
+   在 System.Diagnostics.Process.StartWithCreateProcess(ProcessStartInfo startInfo)
+   在 System.Diagnostics.Process.Start()
+   在 NewHYD.HYDMain() 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\ZZJ_Module\ZZJ_Module\NewHYD.cs:行号 65
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\ZZJ_Module\ZZJ_Module\MEF.cs:行号 133
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\2016-8-16\2016-9-7\2016-9-2初步上线源码\ZZJ_Module\ZZJ_Module\MEF.cs:行号 103
+流水号:ZZ001-20160924-000028
+患者信息:卡号:00405313 姓名:王腊明 

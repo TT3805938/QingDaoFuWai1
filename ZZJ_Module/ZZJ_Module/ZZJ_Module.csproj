@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A6F1A05B-8160-4715-95CE-BEB28A9EC82C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZZJ_Module</RootNamespace>
+    <AssemblyName>ZZJ_Module</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CoreTYForm, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\ZZJ\Module\CoreTYForm.dll</HintPath>
+    </Reference>
+    <Reference Include="DRGH">
+      <HintPath>bin\Release\DRGH.dll</HintPath>
+    </Reference>
+    <Reference Include="FormStyle, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\FormStyle\FormStyle\bin\Release\FormStyle.dll</HintPath>
+    </Reference>
+    <Reference Include="HL.Devices, Version=4.9.0.0, Culture=neutral, PublicKeyToken=9119e5cb7c95f548, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\HL.Devices.dll</HintPath>
+    </Reference>
+    <Reference Include="Mw_Access, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ZZJ_ModuleTest\bin\Release\Mw_Access.dll</HintPath>
+    </Reference>
+    <Reference Include="Mw_MSSQL, Version=4.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ZZJ_ModuleTest\bin\Release\Mw_MSSQL.dll</HintPath>
+    </Reference>
+    <Reference Include="Mw_Public, Version=3.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ZZJ_ModuleTest\bin\Release\Mw_Public.dll</HintPath>
+    </Reference>
+    <Reference Include="Mw_Voice, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ZZJ_ModuleTest\bin\Release\Mw_Voice.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="QDYBCard, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\QDYBCard\QDYBCard\bin\Release\QDYBCard.dll</HintPath>
+    </Reference>
+    <Reference Include="QDYLLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\QDYLLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WCFQDYBYL">
+      <HintPath>..\..\..\..\..\..\青岛市市立医院项目\青岛市市立医院源码\智业HIS版本\ZZJ\ZZJ_Module\ZZJ_Module\bin\Release\WCFQDYBYL.dll</HintPath>
+    </Reference>
+    <Reference Include="YuanTuGatewaydo, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\YuanTuGatewaydo.dll</HintPath>
+    </Reference>
+    <Reference Include="ZZJCore, Version=1.3.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ZZJCore.dll</HintPath>
+    </Reference>
+    <Reference Include="ZZJSubModuleInterface, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ZZJSubModuleInterface.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CZMX.cs" />
+    <Compile Include="DRGH.cs" />
+    <Compile Include="FWJGQD.cs" />
+    <Compile Include="GHNY.cs" />
+    <Compile Include="MYDDC.cs" />
+    <Compile Include="NewHYD.cs" />
+    <Compile Include="Lisreportdll.cs" />
+    <Compile Include="Public_Proc.cs" />
+    <Compile Include="SQLSave.cs" />
+    <Compile Include="XmlMaker.cs" />
+    <Compile Include="YNCardToQYCard.cs" />
+    <Compile Include="YYGH.cs" />
+    <Compile Include="YYJS.cs" />
+    <Compile Include="YYJSForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YYJSForm.designer.cs">
+      <DependentUpon>YYJSForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ZYQD.cs" />
+    <Compile Include="交费\GangCardPay.cs" />
+    <Compile Include="办卡相关\CardRW.cs" />
+    <Compile Include="BK.cs" />
+    <Compile Include="交费\ChargeClass.cs" />
+    <Compile Include="DoctorPay.cs" />
+    <Compile Include="办卡相关\HiTi.cs" />
+    <Compile Include="JF.cs" />
+    <Compile Include="Msprint.cs" />
+    <Compile Include="办卡相关\PingTaiCreateCard.cs" />
+    <Compile Include="办卡相关\PlatformInFo.cs" />
+    <Compile Include="Public_Var.cs" />
+    <Compile Include="办卡相关\RegionalPlatform.cs" />
+    <Compile Include="WPCX.cs" />
+    <Compile Include="GMBL.cs" />
+    <Compile Include="Login.cs" />
+    <Compile Include="MEF.cs" />
+    <Compile Include="MMXG.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XFMX.cs" />
+    <Compile Include="XJCZ.cs" />
+    <Compile Include="XMLCore.cs" />
+    <Compile Include="交费\YBPay.cs" />
+    <Compile Include="YECX.cs" />
+    <Compile Include="YLCZ.cs" />
+    <Compile Include="交费\UnionPay.cs" />
+    <Compile Include="YYQH.cs" />
+    <Compile Include="QYKBK.cs" />
+    <Compile Include="区域相关\UserData.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="接口调用逻辑.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

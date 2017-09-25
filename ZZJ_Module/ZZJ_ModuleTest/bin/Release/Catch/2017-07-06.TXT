@@ -1,0 +1,11 @@
+
+=====================充值明细查询=====================
+时间:11:00:04:531
+异常描述:未将对象引用设置到对象的实例。
+调用堆栈:
+   在 CZMX.ShowData1(ACFList[] ACFL) 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\CZMX.cs:行号 287
+   在 CZMX.CZMXMain() 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\CZMX.cs:行号 213
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\MEF.cs:行号 135
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\MEF.cs:行号 106
+流水号:无法获取流水号
+患者信息:卡号:00405396 姓名:170426联调 

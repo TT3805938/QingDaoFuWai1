@@ -1,0 +1,240 @@
+[2017-08-29 09:08:37.160][ZZJ_ModuleTest.vshost.exe][2444]---关闭串口---
+[2017-08-29 09:08:37.170][ZZJ_ModuleTest.vshost.exe][2444]CloseCom
+[2017-08-29 09:08:37.171][ZZJ_ModuleTest.vshost.exe][2444]---打开串口---
+[2017-08-29 09:08:37.172][ZZJ_ModuleTest.vshost.exe][2444]OpenCom nPort = 3,nBaud = 9600,success
+[2017-08-29 09:08:37.172][ZZJ_ModuleTest.vshost.exe][2444]---打开键盘仿真---
+[2017-08-29 09:08:37.172][ZZJ_ModuleTest.vshost.exe][2444]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2017-08-29 09:08:37.194][ZZJ_ModuleTest.vshost.exe][2444]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 09:08:41.102][ZZJ_ModuleTest.vshost.exe][2444]---打开键盘仿真---
+[2017-08-29 09:08:41.104][ZZJ_ModuleTest.vshost.exe][2444]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 09:08:41.126][ZZJ_ModuleTest.vshost.exe][2444]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 09:08:41.127][ZZJ_ModuleTest.vshost.exe][2444]---关闭串口---
+[2017-08-29 09:08:41.128][ZZJ_ModuleTest.vshost.exe][2444]CloseCom
+[2017-08-29 09:08:41.179][ZZJ_ModuleTest.vshost.exe][2444]---打开键盘仿真---
+[2017-08-29 09:08:41.180][ZZJ_ModuleTest.vshost.exe][2444]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 09:08:41.180][ZZJ_ModuleTest.vshost.exe][2444]---关闭串口---
+[2017-08-29 09:08:41.181][ZZJ_ModuleTest.vshost.exe][2444]CloseCom
+[2017-08-29 09:50:05.065][ZZJ_ModuleTest.vshost.exe][5256]---关闭串口---
+[2017-08-29 09:50:05.066][ZZJ_ModuleTest.vshost.exe][5256]CloseCom
+[2017-08-29 09:50:05.067][ZZJ_ModuleTest.vshost.exe][5256]---打开串口---
+[2017-08-29 09:50:05.068][ZZJ_ModuleTest.vshost.exe][5256]OpenCom nPort = 3,nBaud = 9600,success
+[2017-08-29 09:50:05.069][ZZJ_ModuleTest.vshost.exe][5256]---打开键盘仿真---
+[2017-08-29 09:50:05.070][ZZJ_ModuleTest.vshost.exe][5256]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2017-08-29 09:50:05.092][ZZJ_ModuleTest.vshost.exe][5256]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 09:50:45.346][ZZJ_ModuleTest.vshost.exe][5256]---打开键盘仿真---
+[2017-08-29 09:50:45.347][ZZJ_ModuleTest.vshost.exe][5256]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 09:50:45.370][ZZJ_ModuleTest.vshost.exe][5256]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 09:50:45.372][ZZJ_ModuleTest.vshost.exe][5256]---关闭串口---
+[2017-08-29 09:50:45.373][ZZJ_ModuleTest.vshost.exe][5256]CloseCom
+[2017-08-29 09:50:45.423][ZZJ_ModuleTest.vshost.exe][5256]---打开键盘仿真---
+[2017-08-29 09:50:45.424][ZZJ_ModuleTest.vshost.exe][5256]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 09:50:45.426][ZZJ_ModuleTest.vshost.exe][5256]---关闭串口---
+[2017-08-29 09:50:45.427][ZZJ_ModuleTest.vshost.exe][5256]CloseCom
+[2017-08-29 09:54:46.555][ZZJ_ModuleTest.vshost.exe][4956]---关闭串口---
+[2017-08-29 09:54:46.556][ZZJ_ModuleTest.vshost.exe][4956]CloseCom
+[2017-08-29 09:54:46.557][ZZJ_ModuleTest.vshost.exe][4956]---打开串口---
+[2017-08-29 09:54:46.559][ZZJ_ModuleTest.vshost.exe][4956]OpenCom nPort = 3,nBaud = 9600,success
+[2017-08-29 09:54:46.560][ZZJ_ModuleTest.vshost.exe][4956]---打开键盘仿真---
+[2017-08-29 09:54:46.560][ZZJ_ModuleTest.vshost.exe][4956]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2017-08-29 09:54:46.583][ZZJ_ModuleTest.vshost.exe][4956]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 09:54:50.475][ZZJ_ModuleTest.vshost.exe][4956]---打开键盘仿真---
+[2017-08-29 09:54:50.477][ZZJ_ModuleTest.vshost.exe][4956]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 09:54:50.500][ZZJ_ModuleTest.vshost.exe][4956]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 09:54:50.502][ZZJ_ModuleTest.vshost.exe][4956]---关闭串口---
+[2017-08-29 09:54:50.503][ZZJ_ModuleTest.vshost.exe][4956]CloseCom
+[2017-08-29 09:54:50.548][ZZJ_ModuleTest.vshost.exe][4956]---打开键盘仿真---
+[2017-08-29 09:54:50.549][ZZJ_ModuleTest.vshost.exe][4956]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 09:54:50.549][ZZJ_ModuleTest.vshost.exe][4956]---关闭串口---
+[2017-08-29 09:54:50.550][ZZJ_ModuleTest.vshost.exe][4956]CloseCom
+[2017-08-29 09:56:24.663][ZZJ_ModuleTest.vshost.exe][5756]---关闭串口---
+[2017-08-29 09:56:24.664][ZZJ_ModuleTest.vshost.exe][5756]CloseCom
+[2017-08-29 09:56:24.665][ZZJ_ModuleTest.vshost.exe][5756]---打开串口---
+[2017-08-29 09:56:24.666][ZZJ_ModuleTest.vshost.exe][5756]OpenCom nPort = 3,nBaud = 9600,success
+[2017-08-29 09:56:24.668][ZZJ_ModuleTest.vshost.exe][5756]---打开键盘仿真---
+[2017-08-29 09:56:24.668][ZZJ_ModuleTest.vshost.exe][5756]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2017-08-29 09:56:24.691][ZZJ_ModuleTest.vshost.exe][5756]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 09:56:29.999][ZZJ_ModuleTest.vshost.exe][5756]---打开键盘仿真---
+[2017-08-29 09:56:30.000][ZZJ_ModuleTest.vshost.exe][5756]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 09:56:30.024][ZZJ_ModuleTest.vshost.exe][5756]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 09:56:30.025][ZZJ_ModuleTest.vshost.exe][5756]---关闭串口---
+[2017-08-29 09:56:30.027][ZZJ_ModuleTest.vshost.exe][5756]CloseCom
+[2017-08-29 09:56:30.075][ZZJ_ModuleTest.vshost.exe][5756]---打开键盘仿真---
+[2017-08-29 09:56:30.077][ZZJ_ModuleTest.vshost.exe][5756]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 09:56:30.077][ZZJ_ModuleTest.vshost.exe][5756]---关闭串口---
+[2017-08-29 09:56:30.078][ZZJ_ModuleTest.vshost.exe][5756]CloseCom
+[2017-08-29 09:58:19.582][ZZJ_ModuleTest.vshost.exe][3964]---关闭串口---
+[2017-08-29 09:58:19.583][ZZJ_ModuleTest.vshost.exe][3964]CloseCom
+[2017-08-29 09:58:19.584][ZZJ_ModuleTest.vshost.exe][3964]---打开串口---
+[2017-08-29 09:58:19.586][ZZJ_ModuleTest.vshost.exe][3964]OpenCom nPort = 3,nBaud = 9600,success
+[2017-08-29 09:58:19.587][ZZJ_ModuleTest.vshost.exe][3964]---打开键盘仿真---
+[2017-08-29 09:58:19.587][ZZJ_ModuleTest.vshost.exe][3964]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2017-08-29 09:58:19.609][ZZJ_ModuleTest.vshost.exe][3964]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 09:58:24.180][ZZJ_ModuleTest.vshost.exe][3964]---打开键盘仿真---
+[2017-08-29 09:58:24.181][ZZJ_ModuleTest.vshost.exe][3964]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 09:58:24.204][ZZJ_ModuleTest.vshost.exe][3964]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 09:58:24.206][ZZJ_ModuleTest.vshost.exe][3964]---关闭串口---
+[2017-08-29 09:58:24.207][ZZJ_ModuleTest.vshost.exe][3964]CloseCom
+[2017-08-29 09:58:24.268][ZZJ_ModuleTest.vshost.exe][3964]---打开键盘仿真---
+[2017-08-29 09:58:24.269][ZZJ_ModuleTest.vshost.exe][3964]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 09:58:24.270][ZZJ_ModuleTest.vshost.exe][3964]---关闭串口---
+[2017-08-29 09:58:24.270][ZZJ_ModuleTest.vshost.exe][3964]CloseCom
+[2017-08-29 09:59:23.167][ZZJ_ModuleTest.vshost.exe][3812]---关闭串口---
+[2017-08-29 09:59:23.167][ZZJ_ModuleTest.vshost.exe][3812]CloseCom
+[2017-08-29 09:59:23.169][ZZJ_ModuleTest.vshost.exe][3812]---打开串口---
+[2017-08-29 09:59:23.170][ZZJ_ModuleTest.vshost.exe][3812]OpenCom nPort = 3,nBaud = 9600,success
+[2017-08-29 09:59:23.171][ZZJ_ModuleTest.vshost.exe][3812]---打开键盘仿真---
+[2017-08-29 09:59:23.172][ZZJ_ModuleTest.vshost.exe][3812]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2017-08-29 09:59:23.195][ZZJ_ModuleTest.vshost.exe][3812]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 09:59:30.020][ZZJ_ModuleTest.vshost.exe][3812]---打开键盘仿真---
+[2017-08-29 09:59:30.022][ZZJ_ModuleTest.vshost.exe][3812]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 09:59:30.045][ZZJ_ModuleTest.vshost.exe][3812]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 09:59:30.046][ZZJ_ModuleTest.vshost.exe][3812]---关闭串口---
+[2017-08-29 09:59:30.047][ZZJ_ModuleTest.vshost.exe][3812]CloseCom
+[2017-08-29 09:59:30.108][ZZJ_ModuleTest.vshost.exe][3812]---打开键盘仿真---
+[2017-08-29 09:59:30.109][ZZJ_ModuleTest.vshost.exe][3812]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 09:59:30.109][ZZJ_ModuleTest.vshost.exe][3812]---关闭串口---
+[2017-08-29 09:59:30.110][ZZJ_ModuleTest.vshost.exe][3812]CloseCom
+[2017-08-29 10:04:46.112][ZZJ_ModuleTest.vshost.exe][1288]---关闭串口---
+[2017-08-29 10:04:46.113][ZZJ_ModuleTest.vshost.exe][1288]CloseCom
+[2017-08-29 10:04:46.113][ZZJ_ModuleTest.vshost.exe][1288]---打开串口---
+[2017-08-29 10:04:46.115][ZZJ_ModuleTest.vshost.exe][1288]OpenCom nPort = 3,nBaud = 9600,success
+[2017-08-29 10:04:46.116][ZZJ_ModuleTest.vshost.exe][1288]---打开键盘仿真---
+[2017-08-29 10:04:46.117][ZZJ_ModuleTest.vshost.exe][1288]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2017-08-29 10:04:46.139][ZZJ_ModuleTest.vshost.exe][1288]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 10:05:01.956][ZZJ_ModuleTest.vshost.exe][1288]---打开键盘仿真---
+[2017-08-29 10:05:01.957][ZZJ_ModuleTest.vshost.exe][1288]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 10:05:01.980][ZZJ_ModuleTest.vshost.exe][1288]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 10:05:01.982][ZZJ_ModuleTest.vshost.exe][1288]---关闭串口---
+[2017-08-29 10:05:01.983][ZZJ_ModuleTest.vshost.exe][1288]CloseCom
+[2017-08-29 10:05:02.034][ZZJ_ModuleTest.vshost.exe][1288]---打开键盘仿真---
+[2017-08-29 10:05:02.035][ZZJ_ModuleTest.vshost.exe][1288]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 10:05:02.035][ZZJ_ModuleTest.vshost.exe][1288]---关闭串口---
+[2017-08-29 10:05:02.036][ZZJ_ModuleTest.vshost.exe][1288]CloseCom
+[2017-08-29 10:09:22.200][ZZJ_ModuleTest.vshost.exe][540]---关闭串口---
+[2017-08-29 10:09:22.200][ZZJ_ModuleTest.vshost.exe][540]CloseCom
+[2017-08-29 10:09:22.201][ZZJ_ModuleTest.vshost.exe][540]---打开串口---
+[2017-08-29 10:09:22.203][ZZJ_ModuleTest.vshost.exe][540]OpenCom nPort = 3,nBaud = 9600,success
+[2017-08-29 10:09:22.203][ZZJ_ModuleTest.vshost.exe][540]---打开键盘仿真---
+[2017-08-29 10:09:22.204][ZZJ_ModuleTest.vshost.exe][540]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2017-08-29 10:09:22.226][ZZJ_ModuleTest.vshost.exe][540]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 10:09:38.109][ZZJ_ModuleTest.vshost.exe][540]---打开键盘仿真---
+[2017-08-29 10:09:38.111][ZZJ_ModuleTest.vshost.exe][540]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 10:09:38.134][ZZJ_ModuleTest.vshost.exe][540]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 10:09:38.135][ZZJ_ModuleTest.vshost.exe][540]---关闭串口---
+[2017-08-29 10:09:38.136][ZZJ_ModuleTest.vshost.exe][540]CloseCom
+[2017-08-29 10:09:38.191][ZZJ_ModuleTest.vshost.exe][540]---打开键盘仿真---
+[2017-08-29 10:09:38.192][ZZJ_ModuleTest.vshost.exe][540]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 10:09:38.193][ZZJ_ModuleTest.vshost.exe][540]---关闭串口---
+[2017-08-29 10:09:38.193][ZZJ_ModuleTest.vshost.exe][540]CloseCom
+[2017-08-29 13:39:03.983][ZZJ_ModuleTest.vshost.exe][1072]---关闭串口---
+[2017-08-29 13:39:03.984][ZZJ_ModuleTest.vshost.exe][1072]CloseCom
+[2017-08-29 13:39:03.985][ZZJ_ModuleTest.vshost.exe][1072]---打开串口---
+[2017-08-29 13:39:03.987][ZZJ_ModuleTest.vshost.exe][1072]OpenCom nPort = 3,nBaud = 9600,success
+[2017-08-29 13:39:03.989][ZZJ_ModuleTest.vshost.exe][1072]---打开键盘仿真---
+[2017-08-29 13:39:03.989][ZZJ_ModuleTest.vshost.exe][1072]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2017-08-29 13:39:04.012][ZZJ_ModuleTest.vshost.exe][1072]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 13:39:07.282][ZZJ_ModuleTest.vshost.exe][1072]---打开键盘仿真---
+[2017-08-29 13:39:07.284][ZZJ_ModuleTest.vshost.exe][1072]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 13:39:07.308][ZZJ_ModuleTest.vshost.exe][1072]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 13:39:07.309][ZZJ_ModuleTest.vshost.exe][1072]---关闭串口---
+[2017-08-29 13:39:07.310][ZZJ_ModuleTest.vshost.exe][1072]CloseCom
+[2017-08-29 13:39:07.370][ZZJ_ModuleTest.vshost.exe][1072]---打开键盘仿真---
+[2017-08-29 13:39:07.370][ZZJ_ModuleTest.vshost.exe][1072]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 13:39:07.371][ZZJ_ModuleTest.vshost.exe][1072]---关闭串口---
+[2017-08-29 13:39:07.372][ZZJ_ModuleTest.vshost.exe][1072]CloseCom
+[2017-08-29 13:39:31.769][ZZJ_ModuleTest.vshost.exe][6600]---关闭串口---
+[2017-08-29 13:39:31.770][ZZJ_ModuleTest.vshost.exe][6600]CloseCom
+[2017-08-29 13:39:31.771][ZZJ_ModuleTest.vshost.exe][6600]---打开串口---
+[2017-08-29 13:39:31.773][ZZJ_ModuleTest.vshost.exe][6600]OpenCom nPort = 3,nBaud = 9600,success
+[2017-08-29 13:39:31.774][ZZJ_ModuleTest.vshost.exe][6600]---打开键盘仿真---
+[2017-08-29 13:39:31.775][ZZJ_ModuleTest.vshost.exe][6600]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2017-08-29 13:39:31.797][ZZJ_ModuleTest.vshost.exe][6600]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 13:39:36.781][ZZJ_ModuleTest.vshost.exe][6600]---打开键盘仿真---
+[2017-08-29 13:39:36.783][ZZJ_ModuleTest.vshost.exe][6600]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 13:39:36.806][ZZJ_ModuleTest.vshost.exe][6600]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 13:39:36.807][ZZJ_ModuleTest.vshost.exe][6600]---关闭串口---
+[2017-08-29 13:39:36.809][ZZJ_ModuleTest.vshost.exe][6600]CloseCom
+[2017-08-29 13:39:36.860][ZZJ_ModuleTest.vshost.exe][6600]---打开键盘仿真---
+[2017-08-29 13:39:36.861][ZZJ_ModuleTest.vshost.exe][6600]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 13:39:36.861][ZZJ_ModuleTest.vshost.exe][6600]---关闭串口---
+[2017-08-29 13:39:36.862][ZZJ_ModuleTest.vshost.exe][6600]CloseCom
+[2017-08-29 13:43:30.271][ZZJ_ModuleTest.vshost.exe][6224]---关闭串口---
+[2017-08-29 13:43:30.272][ZZJ_ModuleTest.vshost.exe][6224]CloseCom
+[2017-08-29 13:43:30.273][ZZJ_ModuleTest.vshost.exe][6224]---打开串口---
+[2017-08-29 13:43:30.275][ZZJ_ModuleTest.vshost.exe][6224]OpenCom nPort = 3,nBaud = 9600,success
+[2017-08-29 13:43:30.275][ZZJ_ModuleTest.vshost.exe][6224]---打开键盘仿真---
+[2017-08-29 13:43:30.276][ZZJ_ModuleTest.vshost.exe][6224]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2017-08-29 13:43:30.298][ZZJ_ModuleTest.vshost.exe][6224]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 13:43:36.058][ZZJ_ModuleTest.vshost.exe][6224]---打开键盘仿真---
+[2017-08-29 13:43:36.060][ZZJ_ModuleTest.vshost.exe][6224]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 13:43:36.083][ZZJ_ModuleTest.vshost.exe][6224]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 13:43:36.084][ZZJ_ModuleTest.vshost.exe][6224]---关闭串口---
+[2017-08-29 13:43:36.086][ZZJ_ModuleTest.vshost.exe][6224]CloseCom
+[2017-08-29 13:43:36.169][ZZJ_ModuleTest.vshost.exe][6224]---打开键盘仿真---
+[2017-08-29 13:43:36.170][ZZJ_ModuleTest.vshost.exe][6224]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 13:43:36.170][ZZJ_ModuleTest.vshost.exe][6224]---关闭串口---
+[2017-08-29 13:43:36.171][ZZJ_ModuleTest.vshost.exe][6224]CloseCom
+[2017-08-29 13:46:07.307][ZZJ_ModuleTest.vshost.exe][6224]---关闭串口---
+[2017-08-29 13:46:07.307][ZZJ_ModuleTest.vshost.exe][6224]CloseCom
+[2017-08-29 13:46:07.308][ZZJ_ModuleTest.vshost.exe][6224]---打开串口---
+[2017-08-29 13:46:07.310][ZZJ_ModuleTest.vshost.exe][6224]OpenCom nPort = 3,nBaud = 9600,success
+[2017-08-29 13:46:07.310][ZZJ_ModuleTest.vshost.exe][6224]---打开键盘仿真---
+[2017-08-29 13:46:07.311][ZZJ_ModuleTest.vshost.exe][6224]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2017-08-29 13:46:07.333][ZZJ_ModuleTest.vshost.exe][6224]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 13:46:11.589][ZZJ_ModuleTest.vshost.exe][6224]---打开键盘仿真---
+[2017-08-29 13:46:11.591][ZZJ_ModuleTest.vshost.exe][6224]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 13:46:11.614][ZZJ_ModuleTest.vshost.exe][6224]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 13:46:11.615][ZZJ_ModuleTest.vshost.exe][6224]---关闭串口---
+[2017-08-29 13:46:11.617][ZZJ_ModuleTest.vshost.exe][6224]CloseCom
+[2017-08-29 13:46:11.688][ZZJ_ModuleTest.vshost.exe][6224]---打开键盘仿真---
+[2017-08-29 13:46:11.689][ZZJ_ModuleTest.vshost.exe][6224]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 13:46:11.689][ZZJ_ModuleTest.vshost.exe][6224]---关闭串口---
+[2017-08-29 13:46:11.689][ZZJ_ModuleTest.vshost.exe][6224]CloseCom
+[2017-08-29 13:52:26.738][ZZJ_ModuleTest.vshost.exe][6224]---关闭串口---
+[2017-08-29 13:52:26.739][ZZJ_ModuleTest.vshost.exe][6224]CloseCom
+[2017-08-29 13:52:26.740][ZZJ_ModuleTest.vshost.exe][6224]---打开串口---
+[2017-08-29 13:52:26.742][ZZJ_ModuleTest.vshost.exe][6224]OpenCom nPort = 3,nBaud = 9600,success
+[2017-08-29 13:52:26.744][ZZJ_ModuleTest.vshost.exe][6224]---打开键盘仿真---
+[2017-08-29 13:52:26.745][ZZJ_ModuleTest.vshost.exe][6224]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2017-08-29 13:52:26.768][ZZJ_ModuleTest.vshost.exe][6224]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 13:52:31.661][ZZJ_ModuleTest.vshost.exe][6224]---打开键盘仿真---
+[2017-08-29 13:52:31.662][ZZJ_ModuleTest.vshost.exe][6224]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 13:52:31.685][ZZJ_ModuleTest.vshost.exe][6224]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 13:52:31.687][ZZJ_ModuleTest.vshost.exe][6224]---关闭串口---
+[2017-08-29 13:52:31.688][ZZJ_ModuleTest.vshost.exe][6224]CloseCom
+[2017-08-29 13:52:31.788][ZZJ_ModuleTest.vshost.exe][6224]---打开键盘仿真---
+[2017-08-29 13:52:31.788][ZZJ_ModuleTest.vshost.exe][6224]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 13:52:31.789][ZZJ_ModuleTest.vshost.exe][6224]---关闭串口---
+[2017-08-29 13:52:31.789][ZZJ_ModuleTest.vshost.exe][6224]CloseCom
+[2017-08-29 14:58:18.162][ZZJ_ModuleTest.vshost.exe][6832]---关闭串口---
+[2017-08-29 14:58:18.162][ZZJ_ModuleTest.vshost.exe][6832]CloseCom
+[2017-08-29 14:58:18.164][ZZJ_ModuleTest.vshost.exe][6832]---打开串口---
+[2017-08-29 14:58:18.165][ZZJ_ModuleTest.vshost.exe][6832]OpenCom nPort = 3,nBaud = 9600,success
+[2017-08-29 14:58:18.166][ZZJ_ModuleTest.vshost.exe][6832]---打开键盘仿真---
+[2017-08-29 14:58:18.167][ZZJ_ModuleTest.vshost.exe][6832]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2017-08-29 14:58:18.189][ZZJ_ModuleTest.vshost.exe][6832]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 14:58:26.475][ZZJ_ModuleTest.vshost.exe][6832]---打开键盘仿真---
+[2017-08-29 14:58:26.477][ZZJ_ModuleTest.vshost.exe][6832]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 14:58:26.500][ZZJ_ModuleTest.vshost.exe][6832]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 14:58:26.501][ZZJ_ModuleTest.vshost.exe][6832]---关闭串口---
+[2017-08-29 14:58:26.503][ZZJ_ModuleTest.vshost.exe][6832]CloseCom
+[2017-08-29 14:58:26.592][ZZJ_ModuleTest.vshost.exe][6832]---打开键盘仿真---
+[2017-08-29 14:58:26.593][ZZJ_ModuleTest.vshost.exe][6832]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 14:58:26.593][ZZJ_ModuleTest.vshost.exe][6832]---关闭串口---
+[2017-08-29 14:58:26.594][ZZJ_ModuleTest.vshost.exe][6832]CloseCom
+[2017-08-29 15:35:32.870][ZZJ_ModuleTest.vshost.exe][6976]---关闭串口---
+[2017-08-29 15:35:32.870][ZZJ_ModuleTest.vshost.exe][6976]CloseCom
+[2017-08-29 15:35:32.871][ZZJ_ModuleTest.vshost.exe][6976]---打开串口---
+[2017-08-29 15:35:32.872][ZZJ_ModuleTest.vshost.exe][6976]OpenCom nPort = 3,nBaud = 9600,success
+[2017-08-29 15:35:32.872][ZZJ_ModuleTest.vshost.exe][6976]---打开键盘仿真---
+[2017-08-29 15:35:32.873][ZZJ_ModuleTest.vshost.exe][6976]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x03
+[2017-08-29 15:35:32.895][ZZJ_ModuleTest.vshost.exe][6976]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 15:35:49.351][ZZJ_ModuleTest.vshost.exe][6976]---打开键盘仿真---
+[2017-08-29 15:35:49.352][ZZJ_ModuleTest.vshost.exe][6976]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 15:35:49.376][ZZJ_ModuleTest.vshost.exe][6976]SUNSON_UsePlainKeyboard, result = 0x04(成功)
+[2017-08-29 15:35:49.377][ZZJ_ModuleTest.vshost.exe][6976]---关闭串口---
+[2017-08-29 15:35:49.379][ZZJ_ModuleTest.vshost.exe][6976]CloseCom
+[2017-08-29 15:35:49.430][ZZJ_ModuleTest.vshost.exe][6976]---打开键盘仿真---
+[2017-08-29 15:35:49.431][ZZJ_ModuleTest.vshost.exe][6976]SUNSON_UsePlainKeyboard,ucTextModeFormat = 0x00
+[2017-08-29 15:35:49.432][ZZJ_ModuleTest.vshost.exe][6976]---关闭串口---
+[2017-08-29 15:35:49.432][ZZJ_ModuleTest.vshost.exe][6976]CloseCom

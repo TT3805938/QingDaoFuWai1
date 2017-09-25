@@ -1,0 +1,28 @@
+
+==========================================
+时间:14:41:42:018
+异常描述:“NewHYD”的类型初始值设定项引发异常。
+调用堆栈:
+   在 NewHYD.HYDMain()
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\MEF.cs:行号 138
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\MEF.cs:行号 106
+流水号:101010-20150406-0000000
+患者信息:卡号:00405396 姓名: 
+==========================================
+时间:14:41:47:745
+异常描述:“NewHYD”的类型初始值设定项引发异常。
+调用堆栈:
+   在 NewHYD.HYDMain()
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\MEF.cs:行号 138
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\MEF.cs:行号 106
+流水号:101010-20150406-0000000
+患者信息:卡号:00405396 姓名: 
+==========================================
+时间:14:42:08:129
+异常描述:“NewHYD”的类型初始值设定项引发异常。
+调用堆栈:
+   在 NewHYD.HYDMain()
+   在 ZZJ_Module.MEF.MK(String ModuleCode, Object[] argv) 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\MEF.cs:行号 138
+   在 ZZJ_Module.MEF.StartSubModule(String ModuleCode, Object[] argv, String& msg) 位置 E:\yer‘scode\源码\ZZJ_Module\ZZJ_Module\MEF.cs:行号 106
+流水号:101010-20150406-0000000
+患者信息:卡号:00405396 姓名: 

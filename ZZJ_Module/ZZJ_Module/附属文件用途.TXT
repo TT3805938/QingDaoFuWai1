@@ -1,0 +1,16 @@
+XYB				文件夹		逍遥笔手写输入法
+Data			文件夹		音频数据
+A6CRTAPI.dll				读卡器动态库
+cardapi2.dll				读卡器动态库的附属文件
+Config.db					SQL数据库配置,测试时用
+Data.mdb					本地资源数据库,中文拼音输入法的数据也在内
+HL.Devices.dll				硬件设备驱动包
+Mw_Voice.dll				语音库接口文件
+jTTS_Audio.dll				杰通语音库接口附属文件
+JTTS_MA.dll					杰通语音库接口附属文件
+jTTS_ML.dll					杰通语音库接口附属文件
+Mw_Public.dll				部分自助机公共资源
+PavoApi.dll					
+sdtapi.dll
+serf32.dll
+WltRS.dll					刷身份证功能附属文件
