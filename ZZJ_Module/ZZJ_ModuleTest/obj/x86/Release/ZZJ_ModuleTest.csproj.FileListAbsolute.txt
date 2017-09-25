@@ -385,3 +385,6 @@ E:\yer‘scode\源码\ZZJ_Module\ZZJ_ModuleTest\obj\x86\Release\GenerateResource
 E:\yer‘scode\源码\ZZJ_Module\ZZJ_ModuleTest\bin\Release\QDYBCard.dll
 E:\yer‘scode\源码\ZZJ_Module\ZZJ_ModuleTest\bin\Release\QDYBCard.pdb
 E:\yer‘scode\源码\ZZJ_Module\ZZJ_ModuleTest\bin\Release\ZZJ_Module.dll
+D:\青岛阜外心血管医院\QingDaoFuWai\ZZJ_Module\ZZJ_ModuleTest\bin\Release\ZZJ_ModuleTest.exe.config
+D:\青岛阜外心血管医院\QingDaoFuWai\ZZJ_Module\ZZJ_ModuleTest\obj\x86\Release\ZZJ_ModuleTest.exe
+D:\青岛阜外心血管医院\QingDaoFuWai\ZZJ_Module\ZZJ_ModuleTest\obj\x86\Release\ZZJ_ModuleTest.pdb
